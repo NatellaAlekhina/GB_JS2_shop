@@ -1,6 +1,10 @@
-import getProductList from "./mock/data.js";
-import renderGoodsList from "./showcase.js";
+import hello from "./module.js"
+import _ from "lodash"
 
-const productList = getProductList(20);
+hello(_.camelCase("super_admin"))
 
-renderGoodsList(productList);
+const Webpack = require('webpack');
+const WebpackDevServer = require('webpack-dev-server');
+
+import css from "file.css";
+import "./style.css";
