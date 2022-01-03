@@ -4,13 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server",
     "build": "webpack"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^4.17.21"
+    "css-loader": "^6.5.1",
+    "express": "^4.17.2",
+    "lodash": "^4.17.21",
+    "mini-css-extract-plugin": "^2.4.5",
+    "postcss": "^8.4.5",
+    "sass-loader": "^12.4.0",
+    "webpack-dev-server": "^4.7.1"
   },
   "devDependencies": {
     "html-webpack-plugin": "^5.5.0",
