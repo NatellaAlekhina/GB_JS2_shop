@@ -1,9 +1,11 @@
 import ApiHandler from './ApiHandler.js';
-import CartModel from './CartModel.js';
+import CartModel from './CartModel.mjs';
 import ShowcaseModel from './ShowcaseModel.js';
-import EventEmitter from './EventEmitter.js'
+import EventEmitter from './EventEmitter.mjs';
 
-const API_URL = 'http://localhost:3000/api/v1'
+import './assets/scss/main.scss'
+
+const API_URL = '/api/v1'
 
 const api = new ApiHandler(API_URL)
 const eventEmmiter = new EventEmitter()
